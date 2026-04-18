@@ -10,8 +10,8 @@ cmd({
 }, 
 async (conn, mek, m, { from }) => {
     try {
-        const ownerNumber = config.OWNER_NUMBER; // Fetch owner number from config
-        const ownerName = config.OWNER_NAME;     // Fetch owner name from config
+        const ownerNumber = config.03482905832; // Fetch owner number from config
+        const ownerName = config.Sabir-Botz;     // Fetch owner name from config
 
         const vcard = 'BEGIN:VCARD\n' +
                       'VERSION:3.0\n' +
@@ -30,11 +30,11 @@ async (conn, mek, m, { from }) => {
         // Send the owner contact message with image and audio
         await conn.sendMessage(from, {
             image: { url: 'https://files.catbox.moe/yj7zp0.png' }, // Image URL from your request
-            caption: `╭━━〔 *𝐀𝐫𝐬𝐥𝐚𝐧_𝐌𝐃* 〕━━┈⊷
+            caption: `╭━━〔 *Sabir-Botz* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *Here is the owner details*
-┃◈┃• *Name* - ${ownerName}
-┃◈┃• *Number* ${ownerNumber}
+┃◈┃• *Name* - ${Sabir-Botz}
+┃◈┃• *Number* ${03482905832}
 ┃◈┃• *Version*: 2.0.0 Beta
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
@@ -44,8 +44,8 @@ async (conn, mek, m, { from }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363348739987203@newsletter',
-                    newsletterName: '*𝐀𝐫𝐬𝐥𝐚𝐧_𝐌𝐃*',
+                    newsletterJid: '120363424450195993@newsletter',
+                    newsletterName: '*Sabir-Botz*',
                     serverMessageId: 143
                 }            
             }
